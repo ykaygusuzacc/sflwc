@@ -83,13 +83,21 @@ export default class ReservationDetailForm extends LightningElement
         // do a field validation
 
         var combobox = this.template.querySelector('lightning-combobox');
+        var radiobtn = this.template.querySelector('lightning-radio-group');
+        var inputfld = this.template.querySelector('lightning-input');
+        var slider = this.template.querySelector('lightning-slider');
 
-        var isValid = combobox.validity.valid;
+
+
+        var isValid = combobox.validity.valid&&radiobtn.validity.valid
+                        &&inputfld.validity.valid&&slider.validity.valid;
 
         if (!isValid)
         {
             combobox.reportValidity();
-
+            radiobtn.reportValidity();
+            inputfld.reportValidity();
+            slider.reportValidity();
             alert("Required fields missing!");
 
             return;
