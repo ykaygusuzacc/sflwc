@@ -4,9 +4,12 @@
 
 package.xml
 
+AppSwitcher.appMenu
+
 # LWC configuration files
 **/jsconfig.json
 **/.eslintrc.json
 
 # LWC Jest
 **/__tests__/**
+
