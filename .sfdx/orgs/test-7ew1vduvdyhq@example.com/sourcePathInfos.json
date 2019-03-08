@@ -1737,14 +1737,14 @@
     [
         "C:\\sfdev\\myeslwc\\force-app\\main\\default\\lwc\\reservationDetailForm\\reservationDetailForm.js",
         {
-            "state": "u",
             "sourcePath": "C:\\sfdev\\myeslwc\\force-app\\main\\default\\lwc\\reservationDetailForm\\reservationDetailForm.js",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 3023,
             "modifiedTime": 1552010191041,
             "changeTime": 1552010191041,
-            "contentHash": "b2a0845dcba97e8d4ba4461119d72fb875704ddd"
+            "contentHash": "b2a0845dcba97e8d4ba4461119d72fb875704ddd",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
@@ -2088,14 +2088,14 @@
     [
         "C:\\sfdev\\myeslwc\\force-app\\main\\default\\lwc\\reservationList",
         {
-            "state": "u",
             "sourcePath": "C:\\sfdev\\myeslwc\\force-app\\main\\default\\lwc\\reservationList",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 0,
             "modifiedTime": 1552010397640,
             "changeTime": 1552010397640,
-            "contentHash": "ce35b19e3e4df282bff73abe5e8db8631668b203"
+            "contentHash": "ce35b19e3e4df282bff73abe5e8db8631668b203",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
@@ -2114,14 +2114,14 @@
     [
         "C:\\sfdev\\myeslwc\\force-app\\main\\default\\lwc\\reservationList\\reservationList.html",
         {
+            "state": "u",
             "sourcePath": "C:\\sfdev\\myeslwc\\force-app\\main\\default\\lwc\\reservationList\\reservationList.html",
             "isDirectory": false,
-            "size": 27,
-            "modifiedTime": 1552005904441,
-            "changeTime": 1552005904441,
-            "contentHash": "f77f405276fce2c457b8423303ffccb5a455abce",
             "isMetadataFile": false,
-            "state": "u"
+            "size": 1134,
+            "modifiedTime": 1552012223827,
+            "changeTime": 1552012223827,
+            "contentHash": "d4e489ce8389b75dde3f0e197d78593bd05ba942"
         }
     ],
     [
@@ -2140,14 +2140,14 @@
     [
         "C:\\sfdev\\myeslwc\\force-app\\main\\default\\lwc\\reservationList\\reservationList.js-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\sfdev\\myeslwc\\force-app\\main\\default\\lwc\\reservationList\\reservationList.js-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 325,
             "modifiedTime": 1552010428464,
             "changeTime": 1552010428464,
-            "contentHash": "4349b4e49fe8b8dfaeab68e9ff11d9bab79fd67a"
+            "contentHash": "4349b4e49fe8b8dfaeab68e9ff11d9bab79fd67a",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
@@ -2205,14 +2205,14 @@
     [
         "C:\\sfdev\\myeslwc\\force-app\\main\\default\\lwc\\reservationList\\reservationList.svg",
         {
-            "state": "u",
             "sourcePath": "C:\\sfdev\\myeslwc\\force-app\\main\\default\\lwc\\reservationList\\reservationList.svg",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 1491,
             "modifiedTime": 1552010406023,
             "changeTime": 1552010406023,
-            "contentHash": "5ff5f41009447f73203169672a4d3afbf68833db"
+            "contentHash": "5ff5f41009447f73203169672a4d3afbf68833db",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ]
 ]
