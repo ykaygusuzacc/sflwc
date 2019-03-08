@@ -13,6 +13,7 @@
     <label>Space Management</label>
     <navType>Console</navType>
     <tabs>Reservation_Manager</tabs>
+    <tabs>Spaces_Designer</tabs>
     <tabs>Market__c</tabs>
     <tabs>Space__c</tabs>
     <tabs>Reservation__c</tabs>
@@ -34,6 +35,9 @@
         <mappings>
             <fieldName>Market__c</fieldName>
             <tab>Space__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Spaces_Designer</tab>
         </mappings>
         <mappings>
             <tab>standard-Contact</tab>
