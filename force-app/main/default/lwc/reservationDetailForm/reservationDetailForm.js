@@ -1,3 +1,4 @@
+/* eslint-disable no-debugger */
 /* eslint-disable no-alert */
 import { LightningElement, api, track, wire } from 'lwc';
 import getMarketsByState from '@salesforce/apex/marketServices.getMarketsByState';
@@ -85,19 +86,24 @@ export default class ReservationDetailForm extends LightningElement
         var combobox = this.template.querySelector('lightning-combobox');
         var radiobtn = this.template.querySelector('lightning-radio-group');
         var inputfld = this.template.querySelector('lightning-input');
-        var slider = this.template.querySelector('lightning-slider');
 
 
 
-        var isValid = combobox.validity.valid&&radiobtn.validity.valid
-                        &&inputfld.validity.valid&&slider.validity.valid;
+        var isValidA = combobox.validity.valid;
+
+        var isValidB = radiobtn.validity.valid;
+        
+        var isValidC = inputfld.validity.valid;
+        
+        var isValid = isValidA && isValidB && isValidC;
+        debugger;
 
         if (!isValid)
         {
             combobox.reportValidity();
             radiobtn.reportValidity();
             inputfld.reportValidity();
-            slider.reportValidity();
+            
             alert("Required fields missing!");
 
             return;
